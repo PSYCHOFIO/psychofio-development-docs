@@ -1,1 +1,0 @@
-# psychofio-development-docs
