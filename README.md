@@ -1,25 +1,43 @@
-# Psychofio Documentation
+Psychofio Documentation
 
-This repository keeps Psychofio resource documentation separate from customer
-runtime packages.
+Welcome to the official documentation repository for Psychofio resources.
 
-## Documentation sets
+Use this repository to install your purchased resource, review its
+configuration options, learn its commands and integrations, follow update
+instructions, and troubleshoot common setup problems.
 
-- `Psychofio-Appearance`: installation, configuration, usage, release history,
-  support terms, and legal notices.
-- `Psychofio-NPC`: installation, animation integration, commands, release
-  history, support terms, and legal notices.
-- `Psychofio-Prop`: installation, custom prop streaming, menu layout, security,
-  persistent freeze controls, support terms, and legal notices.
+## Choose your resource
 
-All Markdown content is maintained in English. Legacy filenames ending in
-`_TR.md` are retained only to avoid breaking existing links.
+- [Psychofio-Appearance](Psychofio-Appearance/START_HERE.md)
+- [Psychofio-NPC](Psychofio-NPC/START_HERE.md)
+- [Psychofio-Prop](Psychofio-Prop/START_HERE.md)
 
-## Runtime packages
+Each product folder contains:
 
-Customer runtime ZIP archives do not contain Markdown files. Read the
-appropriate `START_HERE.md` and README from this documentation repository
-before installing a resource.
+- First-time installation instructions
+- Requirements and recommended `server.cfg` start order
+- Configuration and command references
+- Integration and customization guides
+- Upgrade notes and release history
+- Troubleshooting information
+- Support terms and legal notices
 
-`LICENSE.md` and `THIRD_PARTY_NOTICES.md` are part of the distribution terms.
-Keep them public and do not remove them.
+## Recommended setup flow
+
+1. Open the folder for the resource you purchased.
+2. Read `START_HERE.md`.
+3. Follow the full README and installation guide before changing the default
+   configuration.
+4. Check `CHANGELOG.md` before upgrading an existing installation.
+5. If a problem remains, review `SUPPORT_POLICY.md` before contacting support.
+
+## Important
+
+Download the actual resource files from the store or delivery platform where
+you purchased the product. This repository contains the customer
+documentation; it is not a replacement for the purchased runtime package.
+
+When requesting support, include the resource version, server framework,
+relevant console errors, and the troubleshooting steps you have already
+completed. Never publish database credentials, license keys, or Discord
+webhooks.
